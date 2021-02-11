@@ -1,0 +1,142 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>The Adventure</title>
+    <link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <style>
+        form {
+            width: 600px;
+        }
+        
+        label {
+            font-family: Quattrocento, sans-serif;
+            font-size: 18px;
+            color: #8f99a4;
+        }
+        
+        input {
+            width: 300px;
+            margin: .3em 0 1em 0;
+        }
+        
+        textarea {
+            width: 100%;
+            heigh: 300px;
+            margin: .3em 0 1em 0;
+        }
+        
+        input:hover,
+        textarea:hover {
+            background-color: #f2f8ff;
+        }
+        
+        input:focus,
+        textarea:focus {
+            box-shadow: none;
+            outline: none;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="wrapper">
+            <h1><a href="index.html">The Adventure</a></h1>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html">Services</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+
+    <div class="bg-color-band"></div>
+
+    <div id="content">
+        <div class="wrapper">
+            <div class="row">
+                <div class="two_third">
+                    <h2>The Message</h2>
+                    <p>Selvage try-hard pour-over, Schlitz Godard hoodie trust fund selfies meggings locavore normcore. Sustainable readymade lumbersexual chambray trust fund, dreamcatcher Truffaut cliche Portland meh DIY health goth tofu leggings. Aesthetic Tumblr literally craft beer. Swag Odd Future VHS, four loko selfies lumbersexual pork belly.</p>
+                    <form action="/need-php-contact-code.php" method="post">
+                        <label for="name">Name:</label>
+                        <br>
+                        <input type="text" id="name" name="user_name" />
+                        <br>
+                        <label for="mail">E-mail:</label>
+                        <br>
+                        <input type="email" id="mail" name="user_email" />
+                        <br>
+                        <label for="phone">Phone #:</label>
+                        <br>
+                        <input type="tel" id="phone" name="user_phone" placeholder="xxx-xxx-xxxx" />
+                        <br>
+                        <label for="msg">Message:</label>
+                        <br>
+                        <textarea id="msg" name="user_message" rows="6"></textarea>
+                        <br>
+                        <button type="submit" class="button">Send your message</button>
+                    </form>
+                </div>
+                <div class="one_third">
+                    <h2>The Map </h2>
+                    <div class="iframe-corners">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5430.32871569435!2d-72.54496299999744!3d-13.163140969872481!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x916d9a5f89555555%3A0x3a10370ea4a01a27!2sMachu+Picchu!5e1!3m2!1sen!2sus!4v1421541408132" width="300" height="550"></iframe>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="one_half">
+                    <h2>Coffee</h2>
+                    <p>3 wolf moon listicle kale chips, iPhone cray freegan retro Williamsburg organic heirloom. Trust fund roof party YOLO sartorial taxidermy, chia 90's blog cardigan. Bicycle rights chillwave mlkshk Etsy ugh, YOLO Vice. Cray you probably haven't heard of them wayfarers, Truffaut gastropub Tumblr tote bag. Messenger bag narwhal beard taxidermy, fashion axe swag Kickstarter YOLO church-key photo booth. Craft beer Tumblr selvage, roof party crucifix +1 chia.</p>
+                </div>
+                <div class="one_half">
+                    <img src="images/contact/coffee.jpg" class="full-width" alt="Gentleman sitting at a Coffeeshop" />
+                </div>
+            </div>
+            <hr>
+        </div>
+        <!--end wrapper-->
+    </div>
+    <!--end content-->
+
+    <footer>
+        <div id="social-media" class="wrapper">
+            <ul>
+                <li>
+                    <a href="#"><img src="images/common/social-media-icons/facebook.png" width="50" alt="Facebook Link" />
+                    </a>
+                </li>
+                <li>
+                    <a href="#"><img src="images/common/social-media-icons/twitter.png" width="50" alt="Twitter Link" />
+                    </a>
+                </li>
+                <li>
+                    <a href="#"><img src="images/common/social-media-icons/behance.png" width="50" alt="Behance Link" />
+                    </a>
+                </li>
+                <li>
+                    <a href="#"><img src="images/common/social-media-icons/linkedin.png" width="50" alt="LinkedIn Link" />
+                    </a>
+                </li>
+                <li>
+                    <a href="#"><img src="images/common/social-media-icons/google-plus.png" width="50" alt="Google+ Link" />
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="wrapper">
+            <p id="copyright">&copy; Copyright</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
